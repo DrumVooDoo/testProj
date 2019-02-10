@@ -1,0 +1,373 @@
+@font-face{
+    font-family: MaryadPro-Regular;
+    src: url(fonts/MyriadPro-Regular.eot);
+}
+body{
+    font-family: MaryadPro-Regular;
+    background-color: #ffffff;
+}
+a{
+    text-decoration: underline;
+}
+a:hover{
+    color: #000000;
+}
+
+
+/*================================*/
+.logoWrapper, .telWrapper, .infoWrapper, .poiskWrapper{
+    margin: 15px auto 15px auto;
+}
+.logo{
+    height: 100px;
+    width: 210px;
+    background-color: #999999;
+    color: #ffffff;
+    text-align: center;
+    line-height: 7em;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sizeTel{
+    width: 174px;
+}
+.sizeInfo, .sizePoisk{
+    width: 180px;
+}
+.telNumbers{
+    white-space: nowrap;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.infoLink{
+    font-weight: bold;
+    margin-left: 10px;
+}
+.infoBox{
+    margin-bottom: 15px;
+}
+.callmeButton{
+    height: 35px;
+    width: 180px;
+    border-radius: 7px;
+    background-color: transparent;
+    border: #999999 1px solid;
+    box-shadow: none;
+    font-weight: bold;
+}
+.btn:focus{
+    box-shadow: none;
+}
+.callmeButton:hover{
+    background-color: #999999;
+    color: #ffffff;
+}
+.poiskInput{
+    height: 35px;
+    width: 160px;
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 12px;
+    box-shadow: none;
+    margin-top: 10px;
+}
+.socialIcon{
+    height: 35px;
+    width: 35px;
+    color: #ffffff;
+    font-size: 14px;
+    background-color: #999999;
+    margin-left: 5px;
+    text-align: center;
+    line-height: 2.5;
+}
+.dropdown-menu{
+    background-color: #999999;
+    border: none;
+    border-radius: 0 0 7px 7px;
+}
+.dropdown-item{
+    color: #ffffff;
+    font-size: 14px;
+    padding: 0 1.5rem;
+}
+.dropdown-item:before{
+    content: "- ";
+}
+.dropdown-item:hover{
+    background-color: #999999;
+    color: #ffffff;
+}
+
+/*==================================================*/
+
+.modal-content{
+    width: 437px;
+    border-radius: 7px;
+}
+#formHeader{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+#contactForm{
+    margin: 60px auto;
+}
+.formDiscr{
+    font-size: 12px;
+    text-align: center;
+}
+.formInput{
+    height: 42px;
+    width: 226px;
+    padding: 15px 10px;
+    border: #000000 1px solid;
+    font-size: 12px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.inform{
+    font-size: 12px;
+    text-align: center;
+}
+.sendButton{
+    height: 43px;
+    width: 157px;
+    background-color: #999999;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 7px;
+}
+.sendButton:hover{
+    background-color: #6c757d;
+    color: #fbfcfc;
+}
+.form-group{
+    margin-top: 1em;
+}
+/*==================================================*/
+
+.navLink{
+    font-size: 14px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    color: #ffffff;
+}
+.navLink:hover{
+    color: #6c757d;
+}
+
+/*==================================================*/
+
+.carousel-item{
+    height: 280px;
+    background-color: #cccccc;
+    border-bottom: #999999 2px solid;
+    border-top: #999999 2px solid;
+}
+.slideInfo{
+    padding: 60px 0 35px 95px;
+}
+.slideInfo > h5 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    line-height: 0.5em;
+    white-space: nowrap;
+}
+.slideInfo > p{
+    font-weight: bold;
+    font-size: 18px;
+    color: #000000;
+    line-height: normal;
+    white-space: nowrap;
+}
+.moreButton{
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 14px;
+    height: 45px;
+    width: 150px;
+    border-radius: 0;
+}
+.moreButton:hover{
+    color: #999999;
+    outline: #999999 2px solid;
+}
+
+/*===========================================*/
+
+.descriptionSection{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.descriptionSection > h1{
+    font-size: 18px;
+    font-weight: bold;
+}
+.descriptionSection > h2{
+    font-size: 16px;
+    font-weight: bold;
+}
+.descriptionSection > h3{
+    font-size: 14px;
+    font-weight: bold;
+}
+.descriptionSection > p{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/*==============================================*/
+
+.whyMe{
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.advantage{
+    margin-bottom: 22px;
+    white-space: nowrap;
+}
+.advImage{
+    background-color: #999999;
+    font-size: 24px;
+    border-radius: 50%;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    margin-right: 13px;
+    vertical-align: middle;
+    line-height: 50px;
+}
+.advText{
+    font-size: 12px;
+    line-height: 14px;
+    margin: 0;
+    vertical-align: middle;
+}
+.advHead{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 12px;
+    margin: 0;
+}
+
+/*=======================================*/
+.service{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.ourServicesHead{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.serviceImage{
+    height: 155px;
+    width: 168px;
+    background-color: #999999;
+}
+.serviceHead{
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+}
+.serviceText{
+    font-size: 12px;
+    margin: 0;
+    line-height: 14px;
+    color: #000000;
+}
+
+/*============================================*/
+.fastRequest{
+    background-color: #999999;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.requestText{
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+.requestButton{
+    height: 40px;
+    width: 210px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    white-space: nowrap;
+}
+/*===============================================*/
+.newsHeader{
+    font-size: 24px;
+    font-weight: bold;
+}
+.newsWrap{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.minImage{
+    height: 133px;
+    width: 150px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 133px;
+    text-align: center;
+    background-color: #999999;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+.newsHead{
+    font-size: 14px;
+    font-weight: bold;
+}
+.newsText{
+    font-size: 12px;
+    font-weight: bold;
+}
+.moreNews{
+    font-weight: bold;
+    line-height: normal;
+}
+
+/*=====================================*/
+
+.footer{
+    padding-top: 5px;
+    margin-bottom: 10px;
+    border-top: #999999 2px solid;
+}
+.name, .listHeader{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.about, .listItem{
+    font-size: 12px;
+    color: #000000;
+}
+.list{
+    padding: 0;
+}
+.list li{
+    line-height: 1;
+    list-style-type: none;
+}
+.list li:before{
+    content: '- ';
+}
+.contactInf{
+    font-size: 12px;
+    text-align: end;
+    margin: 0;
+}
+.margin-15{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

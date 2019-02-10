@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row align-items-center flex-sm-row justify-content-sm-center justify-content-lg-between">
+            <div class="logoWrapper w-auto col-12 col-sm-6 col-lg">
+                <div class="logo col-12">ЛОГОТИП</div>
+            </div>
+            <div class="telWrapper w-auto col-12 col-sm-6 col-lg">
+                <div class="m-auto d-flex flex-row align-items-center sizeTel">
+                    <img class="imgIcon" src="img/tel_icon.png">
+                    <div class="telNumbers">+7 (812) 123-45-56<br>+7 (812) 123-45-56<br>+7 (812) 123-45-56</div>
+                </div>
+            </div>
+            <div class="infoWrapper w-auto info col-12 col-sm-6 col-lg">
+                <div class="m-auto sizeInfo">
+                    <div class="infoBox">
+                        <img src="img/convert_icon.png">
+                        <a class="infoLink">info@domsaitov.ru</a>
+                    </div>
+                    <button class="callmeButton btn" data-toggle="modal" data-target="#modalForm">Заказать звонок!</button>
+                </div>
+            </div>
+            <div class="w-auto poiskWrapper col-12 col-sm-6 col-lg">
+                <div class="m-auto d-flex flex-column align-items-lg-end sizePoisk">
+                    <div class="d-flex flex-row justify-content-lg-end">
+                        <div class="socialIcon">VK</div>
+                        <div class="socialIcon">IN</div>
+                        <div class="socialIcon">FB</div>
+                    </div>
+                    <input class="poiskInput" type="text" placeholder="Поиск по сайту...">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modalForm" tabindex="-1" role="dialog" aria-labelledby="formHeader" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content container">
+                <div class="modal-body">
+                    <form id="contactForm" class="d-flex flex-column justify-content-center align-items-center">
+                        <label class="modal-title" id="formHeader">Привет! Я всплывающая форма.</label>
+                        <label class="formDiscr modal-title">Это текст и описание всплывающей формы.</label>
+                        <div class="form-group d-flex flex-column justify-content-start align-items-center">
+                            <input class="formInput" type="text" placeholder="Ваше имя">
+                            <input class="formInput" type="phone" placeholder="Ваш телефон*">
+                            <input class="formInput" type="email" placeholder="Ваш e-mail">
+                        </div>
+                        <label class="inform">Нажимая кнопку "ОТПРАВИТЬ" я даю согласие
+                            на обработку персональных данных.</label>
+                        <button class="sendButton btn" type="submit">ОТПРАВИТЬ</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="container-fluid nav d-flex justify-content-center" style="background-color: #999999">
+        <a class="navLink nav-link active" href="#">ГЛАВНАЯ</a>
+        <a class="navLink nav-link" href="#">О КОМПАНИИ</a>
+        <a class="navLink nav-link" href="#">АКЦИИ</a>
+        <a class="navLink nav-link" href="#">ПРАЙС-ЛИСТ</a>
+        <a class="navLink nav-link dropdown" href="#" data-toggle="dropdown">УСЛУГИ КОМПАНИИ</a>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Услуга №1</a>
+            <a class="dropdown-item" href="#">Услуга №2</a>
+            <a class="dropdown-item" href="#">Услуга №3</a>
+            <a class="dropdown-item" href="#">Услуга №4</a>
+            <a class="dropdown-item" href="#">Услуга №5</a>
+            <a class="dropdown-item" href="#">Услуга №6</a>
+            <a class="dropdown-item" href="#">Услуга №7</a>
+        </div>
+        <a class="navLink nav-link" href="#">НОВОСТИ</a>
+        <a class="navLink nav-link" href="#">ФОТОГАЛЛЕРЕЯ</a>
+        <a class="navLink nav-link" href="#">ОТЗЫВЫ</a>
+        <a class="navLink nav-link" href="#">КОНТАНТЫ</a>
+    </nav>
+    <div class="carousel slide d-none d-sm-block" id="carousel" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="container slideInfo">
+                    <h5>Слайдер №1 - Заголовок.</h5>
+                    <p>Описание акции, информации о компании, УТП.<br>И тд. Текст в несколько строчек. </p>
+                    <button class="btn moreButton">Подробнее...</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container slideInfo">
+                    <h5>Слайдер №2 - Заголовок.</h5>
+                    <p>Описание акции, информации о компании, УТП.<br>И тд. Текст в несколько строчек. </p>
+                    <button class="btn moreButton">Подробнее...</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="descriptionSection row">
+            <h1 class="col-12">Заголовок страницы - тэг &lt;h1&gt;.</h1>
+            <p class="col-12">В этом блоке мы рекомендуем разместить информацию о Вашей организации, подчеркнуть ее значимость и надежность на рынке оказываемых услуг или предлагаемых товаров.</p>
+            <p class="col-12">Примечание. Обращаем Ваше внимание, что текстовая информация на сайте должна быть индивидуальной, не скопированной с других интернет-ресурсов, о чем указано в
+                рекомендациях Яндекса: «Мы стараемся не индексировать или не ранжировать высоко сайты, копирующие информацию с других ресурсов и не создающие оригинального
+                контента или сервиса».</p>
+            <h2 class="col-12">Подзаголовок на странице - тэг &lt;h2&gt;</h2>
+            <h3 class="col-12">Подзаголовок на странице - тэг &lt;h3&gt;</h3>
+        </div>
+    </div>
+    <div class="container">
+            <p class="whyMe">Почему стоит выбрать именно нас?</p>
+            <div class="container row justify-content-center">
+                <div class="advantage col-lg-4 col-md-6 col-12">
+                    <div class="advImage d-inline-block">1</div>
+                    <p class="advText d-inline-block"><span class="advHead d-block">Ваше преимущество №1.</span>
+                        Краткое описание это преимуещства,<br>и почему оно ценно для Вашего клиента.</p>
+                </div>
+                <div class="advantage col-lg-4 col-md-6 col-12">
+                    <div class="advImage d-inline-block">2</div>
+                    <p class="advText d-inline-block"><span class="advHead d-block">Ваше преимущество №2.</span>
+                        Краткое описание это преимуещства,<br>и почему оно ценно для Вашего клиента.</p>
+                </div>
+                <div class="advantage col-lg-4 col-md-6 col-12">
+                    <div class="advImage d-inline-block">3</div>
+                    <p class="advText d-inline-block"><span class="advHead d-block">Ваше преимущество №3.</span>
+                        Краткое описание это преимуещства,<br>и почему оно ценно для Вашего клиента.</p>
+                </div>
+                <div class="advantage col-lg-4 col-md-6 col-12">
+                    <div class="advImage d-inline-block">4</div>
+                    <p class="advText d-inline-block"><span class="advHead d-block">Ваше преимущество №4.</span>
+                        Краткое описание это преимуещства,<br>и почему оно ценно для Вашего клиента.</p>
+                </div>
+                <div class="advantage col-lg-4 col-md-6 col-12">
+                    <div class="advImage d-inline-block">5</div>
+                    <p class="advText d-inline-block"><span class="advHead d-block">Ваше преимущество №5.</span>
+                        Краткое описание это преимуещства,<br>и почему оно ценно для Вашего клиента.</p>
+                </div>
+            </div>
+    </div>
+    <div class="container">
+        <p class="ourServicesHead">Наши основные услуги</p>
+        <div class="row justify-content-between">
+            <div class="service col-auto">
+                <div class="serviceImage"></div>
+                <p class="serviceHead">Заголовок услуги</p>
+                <p class="serviceText">Краткое описание услуги<br>в несколько срочек.</p>
+                <p class="serviceText"><b>Цена: от 5000руб.</b></p>
+                <a class="serviceText d-block" href="#">Подбробнее...</a>
+            </div>
+            <div class="service col-auto">
+                <div class="serviceImage"></div>
+                <p class="serviceHead">Заголовок услуги</p>
+                <p class="serviceText">Краткое описание услуги<br>в несколько срочек.</p>
+                <p class="serviceText"><b>Цена: от 5000руб.</b></p>
+                <a class="serviceText d-block" href="#">Подбробнее...</a>
+            </div>
+            <div class="service col-auto">
+                <div class="serviceImage"></div>
+                <p class="serviceHead">Заголовок услуги</p>
+                <p class="serviceText">Краткое описание услуги<br>в несколько срочек.</p>
+                <p class="serviceText"><b>Цена: от 5000руб.</b></p>
+                <a class="serviceText d-block" href="#">Подбробнее...</a>
+            </div>
+            <div class="service col-auto">
+                <div class="serviceImage"></div>
+                <p class="serviceHead">Заголовок услуги</p>
+                <p class="serviceText">Краткое описание услуги<br>в несколько срочек.</p>
+                <p class="serviceText"><b>Цена: от 5000руб.</b></p>
+                <a class="serviceText d-block" href="#">Подбробнее...</a>
+            </div>
+        </div>
+    </div>
+    <div class="fastRequest container-fluid">
+        <div class="row justify-content-center justify-content-sm-center">
+            <div class="reqTexts d-inline-block col-auto">
+                <p class="requestText d-none d-sm-block">Сложно сделать выбор и определить с услугами?<br>
+                    Отправьте заявку и наш менеджер свяжется с Вами через 15 минут!</p>
+            </div>
+            <div class="reqBtnWrap col-auto d-inline-block">
+                <button class="btn moreButton requestButton">Отправить заявку!</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <p class="newsHeader">Текущие акции и новости</p>
+        <div class="newsWrap d-flex flex-row justify-content-start row">
+            <div class="minImageWrap col-auto">
+                <div class="minImage">Миниатюра.</div>
+            </div>
+            <div class="newsTexts col-auto">
+                <p class="newsHead">Название Вашей акции новости.</p>
+                <p class="newsText">Краткое описание этой акции или скидки, а также описание почему эта акция или  скидка ценна для Вашего клиента.<br>
+                    Краткое описание вашей новости, а также описание почему эта новость будет полезная вашим клиентам. </p>
+                <a class="serviceText moreNews d-block" href="#">Подбробнее...</a>
+            </div>
+        </div>
+        <div class="newsWrap d-flex flex-row justify-content-start row">
+            <div class="minImageWrap col-auto">
+                <div class="minImage">Миниатюра.</div>
+            </div>
+            <div class="newsTexts col-auto">
+                <p class="newsHead">Название Вашей акции новости.</p>
+                <p class="newsText">Краткое описание этой акции или скидки, а также описание почему эта акция или  скидка ценна для Вашего клиента.<br>
+                    Краткое описание вашей новости, а также описание почему эта новость будет полезная вашим клиентам. </p>
+                <a class="serviceText moreNews d-block" href="#">Подбробнее...</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer container">
+        <div class="row justify-content-between">
+            <div class="margin-15 col-12 col-md">
+                <p class="name">Название Вашей компании</p>
+                <p class="about">(с) 2018 Все права защищены.</p>
+                <p class="about">Информация на сайте не является публичной
+                    офертой. Цены и условия сотрудничества
+                    уточняйте у менеджера в офисе или по телефону.</p>
+                <a class="conf d-block about" href="#">Политика конфиденциальности</a>
+            </div>
+            <div class="margin-15 col d-none d-md-block">
+                <h5 class="listHeader">Наша компания:</h5>
+                <ul class="list">
+                    <li><a class="listItem" href="#">О компании</a></li>
+                    <li><a class="listItem" href="#">Прайс-лист</a></li>
+                    <li><a class="listItem" href="#">Акции</a></li>
+                    <li><a class="listItem" href="#">Новости</a></li>
+                    <li><a class="listItem" href="#">Открыте вакансии</a></li>
+                    <li><a class="listItem" href="#">Офорить заказ</a></li>
+                    <li><a class="listItem" href="#">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="margin-15 col d-none d-md-block">
+                <h5 class="listHeader">Наши услуги:</h5>
+                <ul class="list">
+                    <li><a class="listItem" href="#">Услуга №1</a></li>
+                    <li><a class="listItem" href="#">Услуга №2</a></li>
+                    <li><a class="listItem" href="#">Услуга №3</a></li>
+                    <li><a class="listItem" href="#">Услуга №4</a></li>
+                    <li><a class="listItem" href="#">Услуга №5</a></li>
+                    <li><a class="listItem" href="#">Услуга №6</a></li>
+                    <li><a class="listItem" href="#">Услуга №7</a></li>
+                </ul>
+            </div>
+            <div class="margin-15 contacts col d-none d-md-block">
+                <p class="contactInf">
+                    <b>Тел.:</b> +7 (812) 123-45-14<br>
+                    +7 (812) 123-45-67<br>
+                    +7 (812) 123-55-67<br>
+                </p>
+                <p class="contactInf">
+                    <b>E-mail:</b> info@вашайт.ru
+                </p>
+                <p class="contactInf">
+                    <b>Адрес:</b> г. Санкт-Петербург, ул. Хошимина,
+                    д. 16, оф. 1616
+                </p>
+                <p class="contactInf">
+                    <b>Режим работы:</b><br>
+                    пн - пт. с 10:00 до 19:00<br>
+                    сб. и вс. - выходной
+                </p>
+            </div>
+        </div>
+        <div class="counter"><a href="http://www.reliablecounter.com" target="_blank"><img src="https://www.reliablecounter.com/count.php?page=112232068&digit=style/plain/1/&reloads=0" alt="" title="" border="0"></a><br /><a href="http://www.reliablecounter.com/blog/overinvolved-drama-politics-can-derail-business" target="_blank" style="font-family: Geneva, Arial; font-size: 9px; color: #330010; text-decoration: none;"></a></div>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
